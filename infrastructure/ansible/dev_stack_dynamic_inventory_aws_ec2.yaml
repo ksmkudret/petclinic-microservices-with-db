@@ -17,6 +17,6 @@ keyed_groups:
   - key: tags['server']
     separator: ''
 hostnames:
-  - "private-ip-address"
+  - 172.31.26.24 #"private-ip-address"
 compose:
   ansible_user: "'ec2-user'"
